@@ -1,12 +1,24 @@
 :root{
     --header-color:#757575;
-    
-}
+    --btn-color: #FFFFFF;
+    }
+
 
 
 .body{
     font-family:"Roboto", "Regular", "sans-serif";
+}
+/* -------WebSudio----------------- */
+.header-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     color: #212121;
+}
+
+.link{
+    text-decoration: none;
 }
 
 .list{
@@ -18,12 +30,25 @@
     color: #2196F3;
 }
 
+.header-logo > span{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;  
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.header-logo{
+    color: #000000
+}
+/* -------------------contacts-------------------- */
 .header-mail{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--header-color);
+    color: var(--header-color)
 }
 
 .header-tel{
@@ -33,15 +58,16 @@
     letter-spacing: 0.02em;
     color: var(--header-color);
 }
-
+/* ----------------Buttons-------------------------- */
 .hero-btn{
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
-}
+    color: black;
+    background-color:#2196F3
+  }
 
 .hero-btn:focus,
 .hero-btn:hover{
@@ -52,7 +78,7 @@
 .list {
     list-style: none;
 }
-
+/* ----------------Projects---------------------- */
 .resume-caption {
     font-family:"Roboto",
     "Regular",
@@ -64,8 +90,156 @@
 }
 
 .resume-paragraph {
+    font-family: 'Roboto';
     font-size: 16px;
     line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--header-color)
+}
+    
+
+/* ------------ФУТЕР-------------- */
+.footer-logo>span {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.footer{
+    background-color: #2F303A;
+}
+.footer-logo > span{
+    font-family: 'Raleway';
+    color: #2196F3;
+}
+.footer-logo{
+    color: #FFFFFF;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+.footer-item{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;  
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.footer-item-top{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.footer-logo link{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+ 
+/* ---------------Index-HEADER------------- */
+.title-button{
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+ 
+ /* --------------ЗАГОВОК------------------- -- */
+
+ .title{
+     background-color: #2F303A;
+ }
+
+ .title-text{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;  
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+ }
+
+/* ------------Чем занмаемся----------------- */
+
+.headline-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.headline-subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* -----------------чем занимаемся------------------ */
+.title-top-text{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+/* -----------------Команда----------------- */
+
+.subject{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.subject-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19; 
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.subject-top{
+    background-color: #F5F4FA;
+}
+
+.subject-item{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
 }
