@@ -7,6 +7,7 @@
 
 .body{
     font-family:"Roboto", "Regular", "sans-serif";
+    color: #212121;
 }
 /* -------WebSudio----------------- */
 .header-link{
@@ -40,10 +41,16 @@
 }
 
 .header-logo{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
     color: #000000
 }
 /* -------------------contacts-------------------- */
 .header-mail{
+    font-family: inherit;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -51,7 +58,12 @@
     color: var(--header-color)
 }
 
+.links{
+    text-decoration:none
+}
+    
 .header-tel{
+    font-family: inherit;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -65,12 +77,12 @@
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
+    cursor: pointer;
     color: black;
-    background-color:#2196F3
   }
 
-.hero-btn:focus,
-.hero-btn:hover{
+.hero-btn:hover,
+.hero-btn:focus{
     color:#FFFFFF ;
     background-color: #2196F3;
 }
@@ -116,6 +128,11 @@
     color: #2196F3;
 }
 .footer-logo{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 
