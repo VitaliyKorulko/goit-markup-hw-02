@@ -1,15 +1,15 @@
 :root{
     --header-color:#757575;
     --btn-color: #FFFFFF;
+    --primery-color: #212121;
     }
 
 
 
-.body{
+body{
     font-family:"Roboto", "sans-serif";
-    color: #212121;
-    --header-color:#757575;
-    --btn-color: #FFFFFF;
+    color: var(--primery-color);
+    
 }
 /* -------WebSudio----------------- */
 .header-link{
@@ -18,9 +18,13 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: #212121;
+    color:#000000;
 }
 
+.header-site{
+    color: #2196F3;
+    text-decoration: none;
+}
 .list{
     list-style: none;
 }
@@ -55,7 +59,7 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: var(--header-color)
+    color: var(--header-color);
 }
 .header-mail:hover,
 .header-tel:focus{
@@ -79,6 +83,7 @@
     letter-spacing: 0.03em;
     cursor: pointer;
     color: #212121;
+    background-color: #FFFFFF;
   }
 
 .hero-btn:hover,
@@ -142,6 +147,7 @@
 }
 .footer-item{
     font-weight: 400;
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;  
     letter-spacing: 0.03em;
@@ -150,7 +156,6 @@
 }
 
 .footer-item-top{
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -180,6 +185,10 @@
     color: #FFFFFF;
     background-color: #2196F3;
 }
+.title-button :hover,
+:focus{
+    color:#2196F3;
+}
  
  /* --------------ЗАГОВОК------------------- -- */
 
@@ -188,7 +197,6 @@
  }
 
  .title-text{
-    font-family: 'Roboto';
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;  
@@ -196,6 +204,17 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
+ }
+ .title-button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: #2196F3;
  }
 
 /* ------------Чем занмаемся----------------- */
@@ -258,3 +277,6 @@
     background-color: #FFFFFF;
 }
 
+.subject-top{
+    background: #F5F4FA;
+}
