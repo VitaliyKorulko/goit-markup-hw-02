@@ -6,8 +6,10 @@
 
 
 .body{
-    font-family:"Roboto", "Regular", "sans-serif";
+    font-family:"Roboto", "sans-serif";
     color: #212121;
+    --header-color:#757575;
+    --btn-color: #FFFFFF;
 }
 /* -------WebSudio----------------- */
 .header-link{
@@ -15,11 +17,8 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
-}
-
-.link{
     text-decoration: none;
+    color: #212121;
 }
 
 .list{
@@ -55,13 +54,14 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
     color: var(--header-color)
 }
-
-.links{
-    text-decoration:none
+.header-mail:hover,
+.header-tel:focus{
+    color: #2196F3;
 }
-    
+
 .header-tel{
     font-family: inherit;
     font-weight: 500;
@@ -78,7 +78,7 @@
     line-height: 1.62;
     letter-spacing: 0.03em;
     cursor: pointer;
-    color: black;
+    color: #212121;
   }
 
 .hero-btn:hover,
@@ -92,9 +92,6 @@
 }
 /* ----------------Projects---------------------- */
 .resume-caption {
-    font-family:"Roboto",
-    "Regular",
-    "sans-serif";
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -159,6 +156,7 @@
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    text-decoration: none;
     color: #FFFFFF;
 }
 
@@ -247,9 +245,7 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-}
-.subject-top{
-    background-color: #F5F4FA;
+    background-color: #FFFFFF;
 }
 
 .subject-item{
@@ -259,4 +255,6 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
+    background-color: #FFFFFF;
 }
+
