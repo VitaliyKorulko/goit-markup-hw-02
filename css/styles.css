@@ -80,7 +80,7 @@ body{
 }
 /* ----------------Buttons-------------------------- */
 .hero-btn{
-    font-family: 'Roboto';
+    font-family:inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -88,12 +88,13 @@ body{
     cursor: pointer;
     color: #212121;
     background-color: #FFFFFF;
+    border: none;
   }
 
 .hero-btn:hover,
 .hero-btn:focus{
-    color:#FFFFFF ;
-    background-color: #2196F3;
+    color:#E5E5E5;
+    background-color: #188CE8;
 }
 
 .list {
@@ -180,20 +181,16 @@ body{
 }
  
 /* ---------------Index-HEADER------------- */
-
-
 .title-button:hover,
 .title-button:focus{
-    color: #188CE8;
-
+    background-color: #188CE8;
 }
- 
+
  /* --------------ЗАГОВОК------------------- -- */
 
  .title{
      background-color: #2F303A;
- }
-
+ } 
  .title-text{
     font-weight: 900;
     font-size: 44px;
@@ -211,8 +208,8 @@ body{
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #212121;
-    background-color: #F5F4FA;
+    color: #FFFFFF;
+    background-color: #2196F3;
     cursor: pointer;
  }
 
@@ -278,3 +275,4 @@ body{
 .color-title{
     color: #F5F4FA;
 }
+
