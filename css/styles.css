@@ -24,6 +24,10 @@ body{
 .header-site{
     color: #2196F3;
     text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .list{
     list-style: none;
@@ -176,18 +180,12 @@ body{
 }
  
 /* ---------------Index-HEADER------------- */
-.title-button{
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.06em;
-    color: #FFFFFF;
-    background-color: #2196F3;
-}
-.title-button :hover,
-:focus{
-    color:#2196F3;
+
+
+.title-button:hover,
+.title-button:focus{
+    color: #188CE8;
+
 }
  
  /* --------------ЗАГОВОК------------------- -- */
@@ -213,8 +211,9 @@ body{
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
-    background-color: #2196F3;
+    color: #212121;
+    background-color: #F5F4FA;
+    cursor: pointer;
  }
 
 /* ------------Чем занмаемся----------------- */
@@ -264,7 +263,6 @@ body{
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    background-color: #FFFFFF;
 }
 
 .subject-item{
@@ -274,9 +272,9 @@ body{
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
-    background-color: #FFFFFF;
 }
 
-.subject-top{
-    background: #F5F4FA;
+
+.color-title{
+    color: #F5F4FA;
 }
